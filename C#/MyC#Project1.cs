@@ -14,7 +14,7 @@ namespace PracticeLearning
          *  It can span multiple lines and is useful for longer explanations.
          */
 
-        console.WriteLine("\tComments are important for\n code readability."); // \t is a tab character, and \n is a newline character.
+        Console.WriteLine("\tComments are important for\n code readability."); // \t is a tab character, and \n is a newline character.
         Console.WriteLine("Let's explore some basic C# features.");
     
         Console.WriteLine("1. Variables and Data Types:");
