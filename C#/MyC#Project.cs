@@ -14,7 +14,7 @@ namespace PracticeLearning
          *  It can span multiple lines and is useful for longer explanations.
          */
 
-        console.WriteLine("\tComments are important for\n code readability.");
+        console.WriteLine("\tComments are important for\n code readability."); // \t is a tab character, and \n is a newline character.
         Console.WriteLine("Let's explore some basic C# features.");
     
         Console.WriteLine("1. Variables and Data Types:");
@@ -59,9 +59,6 @@ namespace PracticeLearning
         // the above lines demonstrate another way of outputting variable values using string concatenation.
         // Example of string concatenation, where we combine strings using the + operator.
         // This method is less readable than string interpolation but still works, otherwise it is the same as the above example.
-
-        Console.WriteLine("2. Control Structures:");
-
 
         Console.ReadKey(); // Wait for user input before closing the console window
         }
