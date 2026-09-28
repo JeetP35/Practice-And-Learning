@@ -10,11 +10,6 @@ print("Shape of the array:", array_shape ,"\n")
 reshaped_array = array.reshape(3, 2)
 print("Reshaped Array (3x2):\n\n", reshaped_array ,"\n")
 
-# OR
-
-array.shape = (2, 3)
-print("Reshaped Array using shape attribute (3x2):\n\n", array ,"\n")
-
 # Stacking
 # Vertical Stacking
 npArray1 = np.array([1, 2, 3])

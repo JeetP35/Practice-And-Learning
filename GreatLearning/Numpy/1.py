@@ -23,16 +23,20 @@ full_array = np.full((3, 3), 7)
 print("Array of a specific value:\n\n", full_array ,"\n")
 
 # Array with a specific range
-range_array = np.arange(0, 20, 2)
+range_array = np.arange(1, 20, 5) # Creates an array with values from 1 to 20 (exclusive) with a step of 5
 print("Array with a specific range:\n\n", range_array ,"\n")
 
 # Array with Random values
-random_array = np.random.rand(4, 4)
+random_array = np.random.rand(4, 4) # Gives any 4x4 array with random values between 0 and 1
 print("Array with Random values:\n\n", random_array ,"\n")
-# Gives any 4x4 array with random values between 0 and 1
 
 # OR
 
 random_int_array = np.random.randint(1, 100, 3)
 print("Array with Random Integer values:\n\n", random_int_array ,"\n")
 # Gives 3 random integers between 1 and 100
+
+# OR
+
+random_int_array2 = np.random.randint(1, 100, (3, 4)) #Gives a 3x4 array with random integers between 1 and 100
+print("Array with Random Integer values (2D):\n\n", random_int_array2 ,"\n")
